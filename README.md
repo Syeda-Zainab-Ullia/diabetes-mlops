@@ -52,13 +52,11 @@ curl -X POST "http://127.0.0.1:8000/predict" \
 
 | Model | Accuracy | Precision | Recall | F1 |
 |---------|----------|------------|---------|----|
-| Logistic Regression | add_result | add_result | add_result | add_result |
-| SVM | add_result | add_result | add_result | add_result |
-| Decision Tree | add_result | add_result | add_result | add_result |
-| Random Forest | add_result | add_result | add_result | add_result |
-| KNN | add_result | add_result | add_result | add_result |
+| Logistic Regression | 0.924092 | 0.913285 | 0.924092 | 0.916827 |
+| SVM | 0.834983 | 0.697197 | 0.834983 | 0.759895 |
+| Decision Tree | 0.966997 | 0.957361 | 0.966997 | 0.962106 |
+| Random Forest | 0.976898 | 0.964080 | 0.976898 | 0.970323 |
+| KNN | 0.887789 | 0.888420 | 0.887789 | 0.887513 |
 
 ## Screenshots
-
 Stored inside screenshots folder.
-# diabetes-mlops
